@@ -31,13 +31,13 @@
 
 <h3>Hlavní město České republiky : </h3>
 <select name="City">
-<option value="PG">Praha</option>
-<option value="BR" selected="selected">Brno</option>
-<option value="PL" selected="selected">Plzeň</option>
-<option value="LI" selected="selected">Liberec</option>
-<option value="KL" selected="selected">Kolín</option>
-<option value="ČL" selected="selected">Čáslav</option>
-<option value="NONE" selected="selected">Ani jedno z uvedených</option>
+<option value="City">Praha</option>
+<option value="City" selected="selected">Brno</option>
+<option value="City" selected="selected">Plzeň</option>
+<option value="City" selected="selected">Liberec</option>
+<option value="City" selected="selected">Kolín</option>
+<option value="City" selected="selected">Čáslav</option>
+<option value="City" selected="selected">Ani jedno z uvedených</option>
 <option value="" selected="selected"></option>
 </select>
 <br>
