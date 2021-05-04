@@ -13,18 +13,16 @@
       $password = filter_input(INPUT_POST,'password');
       $gender = filter_input(INPUT_POST,'gender');
       $email = filter_input(INPUT_POST,'email');
-      $City = filter_input(INPUT_POST,'City');
+      $ask = filter_input(INPUT_POST,'ask');
       $nick = filter_input(INPUT_POST,'jmeno');
-
-      echo "Bylo vyplněno jméno :  $username <br>";
-      echo "Bylo vyplněno vaše heslo :  $password <br>";
-      echo "Vaše pohlavý :  $gender <br>";
-      echo "Váš email :  $email <br>";
-      echo "Zadal jste že je hlavni město :  $City <br>";
-      echo "Vaše babička za svobodna se jmenovala :  $nick <br>";
+      $answer = filter_input(INPUT_POST,'answer');
 
 
-    
+      echo " <b> Bylo vyplněno jméno : </b>  $username <br>";
+      echo " <b> Bylo vyplněno vaše heslo : </b> $password <br>";
+      echo " <b> Vaše pohlavý : </b>  $gender <br>";
+      echo " <b> Váš email : </b> $email <br>";
+      echo " <b> Vaše kontrolní odpověď </b> :  $answer <br>";
       
       ?>
     
