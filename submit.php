@@ -14,15 +14,17 @@
       $gender = filter_input(INPUT_POST,'gender');
       $email = filter_input(INPUT_POST,'email');
       $City = filter_input(INPUT_POST,'City');
-      $jmeno = filter_input(INPUT_POST,'jmeno');
-      echo "Bylo vyplněno jméno $username <br>";
-      echo "Bylo vyplněno vaše heslo $password";
+      $nick = filter_input(INPUT_POST,'jmeno');
 
-     if (($username =='Jaroslav Melichar') && ($password == '1892')){
-         echo  "úspěšně jste se přihlásil";}
-    else {
-    echo "Nepodařilo se přihlásit";}
+      echo "Bylo vyplněno jméno :  $username <br>";
+      echo "Bylo vyplněno vaše heslo :  $password <br>";
+      echo "Vaše pohlavý :  $gender <br>";
+      echo "Váš email :  $email <br>";
+      echo "Zadal jste že je hlavni město :  $City <br>";
+      echo "Vaše babička za svobodna se jmenovala :  $nick <br>";
 
+
+    
       
       ?>
     
