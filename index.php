@@ -8,7 +8,8 @@
 </head>
 <body>
 <h1> Sčítání lidu </h1>
-     <form action="submit.php" method ="post">
+
+     <form action="submit.php" method="post">
       <label for="username">Vaše jméno :  </label>    
       <input type="text" name="username" id ="username" >
       <br>
@@ -24,9 +25,7 @@
 <br>
 
 <h3>Napište váš email : </h3>
-<form method="post" action="">
   <input type="email" placeholder="Melichar.@seznam.cz" />
-</form>
 <br>
 
 <h3>Hlavní město České republiky : </h3>
@@ -43,11 +42,11 @@
 <br>
 
 <h3>Jak se jmenovala vaše babička za svobodna ?</h3>
-<input type="text" name="jmeno">
+<input type="nick" name="jmeno">
 <br>
 <br>
 
-      <input type="submit" value= "Odeslat" > 
+     <input type="submit" value="odeslat">
     </form>
 </body>
 </html>
