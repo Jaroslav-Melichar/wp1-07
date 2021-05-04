@@ -10,7 +10,7 @@
 <h1> Sčítání lidu </h1>
 
      <form action="submit.php" method="post">
-      <label for="username">Vaše jméno :  </label>    
+      <label for="username"> <b> Vaše jméno : </b> </label>    
       <input type="text" name="username" id ="username" >
       <br>
 
@@ -25,27 +25,25 @@
 <br>
 
 <h3>Napište váš email : </h3>
-  <input type="email" placeholder="Melichar.@seznam.cz" />
+  <input type="email" name="email" placeholder="Melichar.@seznam.cz" />
 <br>
 
-<h3>Hlavní město České republiky : </h3>
-<select name="City">
-<option value="City">Praha</option>
-<option value="City" selected="selected">Brno</option>
-<option value="City" selected="selected">Plzeň</option>
-<option value="City" selected="selected">Liberec</option>
-<option value="City" selected="selected">Kolín</option>
-<option value="City" selected="selected">Čáslav</option>
-<option value="City" selected="selected">Ani jedno z uvedených</option>
-<option value="" selected="selected"></option>
+<h3>Vyberte si kontrolní otázku a odpovězte : </h3>
+<select name="ask">
+<option value="ask">Jméno vaší třídní učitelky na druhém stupni ZŠ</option>
+<option value="ask" selected="selected">Jaké bylo jméno vaší matky za svobodna</option>
+<option value="ask" selected="selected">Jaká je vaše oblíbená hudební skupina</option>
+<option value="ask" selected="selected">Jméno vašeho prvního mazlíčka</option>
+<option value="ask" selected="selected">V jakém roce jste odmaturoval</option>
+<option value="ask" selected="selected">Křestní jméno vašeho otce</option>
+<option value="ask" selected="selected">Značka vašeho prvního auta</option>
+<option value="ask" selected="selected">Vyberte si otázku</option> 
 </select>
 <br>
-
-<h3>Jak se jmenovala vaše babička za svobodna ?</h3>
-<input type="nick" name="jmeno">
+<br>
+<input type="answer" name="answer">
 <br>
 <br>
-
      <input type="submit" value="odeslat">
     </form>
 </body>
